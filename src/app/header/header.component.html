@@ -3,6 +3,9 @@
   <a class="tool-item" mat-button routerLink="/home" routerLinkActive="active"><span class="fa fa-home fa-lg tool-item"></span> <span class="tool-item">Home</span></a>
   <a class="tool-item"  mat-button><span class="fa fa-info fa-lg tool-item"></span> <span class="tool-item">About</span></a>
   <a class="tool-item" mat-button routerLink="/menu"><span class="fa fa-list fa-lg tool-item"></span><span class="tool-item">Menu</span> </a>
+  <a mat-button routerLink="/contactus"><span class="fa fa-address-card fa-lg tool-item"></span><span class="tool-item">Contact</span> </a>
+  <span class="flex-spacer"></span>
+  <a mat-button (click)="openLoginForm()"><span class="fa fa-sign-in fa-lg"></span> Login</a>
 </mat-toolbar>
   
   <div class="container jumbotron"

@@ -1,12 +1,12 @@
 import { Comment } from '../shared/Comment';
 export class Dish {
-    id: number | undefined;
+    id!: number;
     name!: string;
-    image: string| undefined;
-    category: string| undefined;
-    featured: boolean| undefined;
-    label: string| undefined;
-    price: string| undefined;
-    description: string| undefined;
+    image!: string;
+    category!: string;
+    featured!: boolean;
+    label!: string;
+    price!: string;
+    description!: string;
     comments: Comment[] = [];
 }

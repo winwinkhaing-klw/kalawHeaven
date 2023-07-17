@@ -11,8 +11,8 @@ import { PromotionService } from '../services/promotion.service';
 })
 export class HomeComponent implements OnInit {
 
-  dish: Dish | undefined;
-  promotion: Promotion | undefined;
+  dish! : Dish | any;
+  promotion!: Promotion;
 
   constructor(private dishservice: DishService,
     private promotionservice: PromotionService) { }
